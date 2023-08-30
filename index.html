@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="gradient-background">
+<div class="container-bkg">
+    <div class="div-shadow">
+    <form action="" method="post">
+
+        <h1 class="title">Login</h1>
+            
+        <div class="input-box">
+            <div class="label-box"><label for="iusername">Usuário: </label></div>
+            <input type="text" name="username" id="iusername" placeholder=" Digite seu usuário">
+        </div>
+
+        
+        <div class="input-box">
+            <div class="label-box"><label for="iemail">E-mail: </label></div>
+            <input type="email" name="email" id="iemail" placeholder=" exemplo@email.com">
+        </div>
+
+            <div class="input-box">
+            <div class="label-box"><label for="ipassword">Senha:</label></div>
+            <input type="password" name="password" id="ipassword" placeholder=" Digite sua senha">
+            </div>
+                <div class="input-box-passwrd-itens">
+                <div><input type="checkbox" name="rememberme" id="irememberme">
+                <label for="irememberme">Lembre-se de mim</label>
+                </div>
+                <div class="input-box-link1">
+                <a href="resetaccount.html" target="_self">Esqueceu sua senha?</a>
+                </div>
+                </div>
+       
+        <div class="input-box-submit">
+        <input type="submit" value="Entrar">
+        </div>
+
+        <div class="input-box-link2">
+        <p>Não tem uma conta? <a href="creataccount.html" target="_self">Inscreva-se</a></p>
+        </div>
+
+        <div class="divider-container">
+        <div class="divider">
+            <div class="div1"></div> ou <div class="div2"></div>
+        </div>
+        </div>
+
+        <div class="container-total-btns">
+            <div class="container-btn1">
+                <div class="container-icon"><i class='bx bxl-google' undefined ></i></div>
+                <div class="container-text-a"><a href="">Continuar com o Google</a></div>
+            </div>
+       
+           <div class="container-btn2">
+            <div class="container-icon"><i class='bx bxl-facebook-circle' style='color:#3b5998'></i></div>
+            <div class="container-text-a"><a href="">Continuar com o Facebook</a></div>
+           </div>
+       
+           <div class="container-btn3">
+            <div class="container-icon"><i class="material-icons">phone_iphone</i></div>
+            <div class="container-text-a"><a href="">Continuar com telefone</a></div>
+           </div>
+       
+        </div>
+    </form>
+    </div>
+
+</div>
+</div>
+</body>
+
+</html>

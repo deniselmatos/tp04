@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-bkg{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient-background{
+    background: linear-gradient(300deg,white,#e0e0f8,#c7c7f8);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+form{
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 1290px;
+    border-radius: 20px;
+    margin: 30px 0;
+}
+
+.div-shadow>form{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.179);
+  border-radius: 20px;
+}
+
+.title{
+  font-weight: normal;
+  text-align: center;
+  padding: 25px 0;
+  padding-bottom: 8px;
+}
+
+.text{
+  text-align: center;
+  font-size: 17px;
+  padding: 10px 25px;
+}
+
+.container-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.group-set{
+  max-width: 370px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 35px;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  border: 1px solid #71bdff;
+}
+
+legend{
+
+  color: cornflowerblue;
+}
+
+.input-box{
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-box>.label-box{
+  font-size: 16px;
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 3px;
+}
+
+.input-box>input{
+  font-size: 16px;
+  width: 300px;
+  height: 42px;
+  outline: 0;
+}
+
+.input-box>input:focus{
+  border: 1px solid cornflowerblue;
+}
+
+.container-input-box-radio{
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center ;
+}
+
+.input-box-radio{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 30px;
+}
+
+.text-radio{
+  font-size: 16px;
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+
+.container-select{
+  width: 370px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-select>select{
+  outline: 0;
+  width: 300px;
+  height: 42px;
+}
+
+.container-select>select:focus{
+  border: 1px solid cornflowerblue;
+}
+
+.container-check-email{
+  width: 370px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-check-email{
+  width: 300px;
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.container-save-info{
+  width: 370px;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-save-info{
+  width: 300px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.container-btn-clean{
+  width: 135px;
+  height: 42px;
+}
+
+.container-btn-clean>button{
+  width: 100%;
+  height: 100%;
+  background-color: #6464F8;
+  border-radius: 21px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+}
+
+.container-btn-clean>button{
+  color: #FFFFFF;
+}
+
+.container-btn-clean>button:hover{
+  border: 1px solid gray;
+  color: white;
+  background-color: #4b4bf8;
+}
+
+.input-box-submit>input{
+  background-color: #6464F8;
+  color: white;
+  width: 135px;
+  height: 42px;
+  border-radius: 21px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+}
+
+.input-box-submit>input:hover{
+  border: 1px solid gray;
+  color: #FFFFFF;
+  background-color: #4b4bf8;
+}
+
+.container-btn-input{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-total-btn-input{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-box-link{
+  width: 500px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.input-box-link>p>a:hover{
+  text-decoration: underline;
+}
+ 
